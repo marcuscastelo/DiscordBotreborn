@@ -1,0 +1,58 @@
+{ 
+    "name":"",
+    "id":"",
+    "accessOptions":
+    {
+        "allVoiceChannels": true,
+        "allowedVoiceChannels": [],
+
+        "allTextChannels": true,
+        "allowedTextChannels": []
+    },
+
+    "playerOptions":
+    {
+        "loop": 0,
+        "showCurrentPlayTime":true,
+        "leaveOnAfk":
+        {
+            "value": true,
+            "sendMessage": true,
+            "message": "Parece que não tem nada rolando aqui, vou dormir"
+        }
+    },
+
+    "playlist":
+    {
+        "options":
+        {
+            "removeAfterPlay": false,
+            "voteSkip": false,
+            "voteSkipCfg":
+            {
+                "bypassUsers": [],
+                "bypassRoles": []
+            }
+        },
+
+        "queue": 
+        {
+            "shuffle": false,
+            "tracks": 
+            [
+                {
+                    "trackProvider":
+                    {
+                        "provider":"youtube",
+                        "type":"video"
+                    },
+                    "orderNum": 1,
+                    "title": "Illenium - Lost (ft. Emilie Brandt)",
+                    "videoID": "SV6lxgOanPI",
+                    "addedBy": "Marucs",
+                    "addedDate": "2018-02-10 15:20"
+                }
+            ]
+        }
+    }
+}

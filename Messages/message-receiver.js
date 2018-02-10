@@ -1,3 +1,5 @@
+const guildMessageReceiver = require('./GuildMessages/message-receiver')
+
 //delete tis line
 const Message = require('discord.js').Message;
 /**
@@ -11,7 +13,7 @@ function messageReceiver(message){
         message.reply('dm')
     } else if (message.channel.type == 'text') {
         //treat as guild message
-        message.reply('guild')
+        guildMessageReceiver.HandleMessage(message);
     }
 }
 
